@@ -1,4 +1,3 @@
-# test
 terraform {
   required_providers {
     aws = {
@@ -19,7 +18,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-southeast-2"
+  region = "us-west-2"
 }
 
 provider "random" {}
